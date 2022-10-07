@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8" />
-  <title></title>
+  <title>tyyANDwy</title>
   <script src="js/jquery.min.js"></script>
   <link type="text/css" href="./css/style.css" rel="stylesheet" />
   <style>
@@ -32,20 +32,29 @@
 
     .one {
       position: relative;
-      background-image: url('./img/治愈.jpg');
+      background-image: url('./img/wallhaven-9mjoy1.png');
       height: 100%;
       width: 100%;
       background-repeat: no-repeat;
       background-size: cover;
+      opacity: 1;
       /* display: none; */
     }
     .dd{
       position: absolute;
       right: 5%;
-      top:5%
+      top:5%;
+      border-radius: 15%;
+      background-color: #fff;
+      color: rgb(11, 124, 169);
+      cursor: pointer;
     }
     .b2{
       width: 100px;
+      opacity: 1;
+    }
+    .b1{
+      opacity: 1;
     }
     .ll{
       position: absolute;
@@ -55,7 +64,17 @@
       width: 100px;
       height: 50px;
       font-size: 20px;
+      border-radius: 10px;
+      color: orange;
+      cursor: pointer;
     }
+    .ll:hover,.dd:hover{
+      background-color: skyblue;
+    }
+    .demo{
+      opacity: 1;
+    }
+
   </style>
 </head>
 
@@ -63,7 +82,7 @@
   <div class="one">
     <div class="b1">
       <button class="dd">
-        怕你尴尬，点击播放音乐
+        播放音乐
       </button>
     </div>
     <div class="b2">
